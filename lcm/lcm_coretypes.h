@@ -13,9 +13,6 @@
 #if defined(__GNUC__) && defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wold-style-cast"
-#elif defined(__GNUC__)
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wold-style-cast"
 #endif
 
 extern "C" {
